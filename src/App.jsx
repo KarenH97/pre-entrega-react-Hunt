@@ -1,18 +1,16 @@
 import React from 'react'
-import ComponenteHijo from './components/componentehijo'
+import NavBar from './components/NavBar'
+import ItemListContainer from './components/ItemListContainer'
+
 
 const App = () => {
 
-  const nombre = "coder"
 
   return (
     <div>
-      <ComponenteHijo
-      //props
-      nombre ={nombre}
-      
-      
-      />
+      <NavBar/>
+      <ItemListContainer greeting={"Bienvenidos a nuestra tienda"} />
+    
     </div>
   )
 }
