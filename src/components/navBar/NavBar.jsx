@@ -1,7 +1,7 @@
 import React from 'react'
 import CardWidget from './CardWidget'
 import { Menu, MenuButton, MenuList, MenuItem, Flex, Box, Spacer } from '@chakra-ui/react'
-
+import logo from '../../assets/logo.png'
 
 
 
@@ -11,7 +11,7 @@ const NavBar = () => {
     <div>
         <Flex>
   <Box p='4'>
-  <h3>brand</h3>
+  <img src={logo} alt="logo" />
   </Box>
   <Spacer/>
   <Menu>
