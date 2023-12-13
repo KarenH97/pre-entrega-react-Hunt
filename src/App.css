@@ -6,16 +6,3 @@
   width: 100%;
 }  
 
-
-.nav{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  width: 100%;
-  background-color: rgb(184, 132, 132);
-}
-.logo{
-  width: 35px;
-  height: 35px;
-}
